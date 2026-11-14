@@ -68,3 +68,26 @@ Metamorphose soporta la transpilación y análisis estructurado para un amplio a
 │                  SANDBOX RUNTIME & CONSOLA                        │
 │        Procesos Locales / Contenedores + Timeout (5s)             │
 └───────────────────────────────────────────────────────────────────┘
+```
+
+## 🗺️ Hoja de Ruta (Roadmap)
+
+* [x] Fase 0: Prototipo funcional base (PSeInt → Python).
+* [ ] Fase 1: Consolidación del Parser AST y UI base en Tauri + React + Monaco Editor[cite: 3].
+* [ ] Fase 2: Soporte inicial para los Big Four (JavaScript, TypeScript, C++, C#)[cite: 3].
+* [ ] Fase 3: Motor Sandbox multi-lenguaje y consola interactiva (Stdin/Stdout)[cite: 3].
+* [ ] Fase 4: Cobertura completa de los 12 lenguajes (Go, Rust, Java, PHP, Ruby, Lua, C)[cite: 3].
+* [ ] Fase 5: Empaquetado nativo multiplataforma (.msi, .deb, .dmg) y CI/CD[cite: 3].
+
+<!--## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas añadir soporte para un nuevo lenguaje o mejorar el análisis del AST:
+
+1. Haz un Fork del repositorio[cite: 3].
+2. Crea una rama para tu funcionalidad (`git checkout -b feature/lang-nuevo`)[cite: 3].
+3. Realiza tus cambios siguiendo las convenciones de Conventional Commits[cite: 3].
+4. Abre un Pull Request detallando la matriz de equivalencia sintáctica[cite: 3].-->
+
+## 📄 Licencia
+
+Distribuido bajo la licencia MIT. Consulta el archivo LICENSE para más información.
